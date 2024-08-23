@@ -20,8 +20,6 @@ Connection = TConnection(user = "postgres",
 Q1 = TQuery()
 Q1.connection = Connection
 
-Q2 = TQuery()
-Q2.connection = Connection
 
 login = input('Digite 1 para entrar e 2 para sair ')
 codigo_usuario = 1
