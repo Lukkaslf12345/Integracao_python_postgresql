@@ -70,3 +70,6 @@ if login == '1':
 else:
     print(f'Você saiu do sistema!'
     )
+
+#Esse código valida a senha e o email, de acordo com o codigo do usuario (campo codigo na tabela das senhas)
+#Foi importado uma biblioteca de validação para segurança da senha, para uso futuro caso eu queira fazer uma funcionalidade para cadastrar emails.
