@@ -24,3 +24,5 @@ if input_login == 'E':
         print('A senha está errada!')
 else:
     print('Você saiu do sistema!')
+
+#Demonstração simples para armazenar senhas no banco de dados e valida-las no python.
