@@ -13,10 +13,10 @@ def descriptografar(senha_criptografada):
     return fernet.decrypt(senha_criptografada.encode()).decode()
     
 Connection = TConnection(user = "postgres", 
-                                  password = "4devF0r!@bos#3000",
-                                  host = "172.25.100.9",
-                                  port = "5432",
-                                  database = "bd_teste_nivelamento")                                  
+                                  password = "senha_banco_dados",
+                                  host = "ip_banco_dados",
+                                  port = "porta_banco_dados",
+                                  database = "base_banco_dados")                                  
 Q1 = TQuery()
 Q1.connection = Connection
 
